@@ -1,0 +1,214 @@
+:root{
+    --color-text:#434455;
+    --color-primary-brand: #4D5AE5;
+    --color-ressed-state: #404BBF;
+    --color-dark:#2E2F42;
+    --color-success: #31D0AA;
+    --color-subtle-text:#8E8F99;
+    --color-accent:#E7E9FC;
+    --color-light:#F4F4FD;
+    --color-modal-overlay:#2E2F42;
+    --color-white-background:#FFFFFF;
+    --color-modal-background: #FCFCFC;
+    --color-naigation: var(--color-text);
+    --color-naigation-action: var(--color-ressed-state);
+    --color-filter-button-text: var(--color-primary-brand);
+    --color-filter-button-background: var(--color-light);
+    --color-tel-and-mail:#434455;
+    --color-hover-tel-and-mail: #404BBF;
+    --color-links: #2E2F42;
+    --color-active-links: #404BBF;
+    --color-buttons-text: white;
+    --color-buttons-background: #4D5AE5;
+    --color-active-buttons-background: #404BBF;
+}
+.container{
+    width: 1158px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-text);
+    background-color: var(--color-white-background);
+    text-decoration: none;
+}
+
+/*font*/
+.link-font{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-tel-and-mail);
+}
+
+.link-font:focus,
+.link-font:hover{
+    color: var(--color-hover-tel-and-mail);
+}
+
+.list-font{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
+.list-font:focus,
+.list-font:hover{
+    color: var(--color-ressed-state)
+
+}
+
+.fontshone{
+    color: var(--color-buttons-text);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+
+}
+.fontshtwo{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+.fontshthre{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+.p-font{
+    color: var(--color-text);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.p-font-fooster{
+    color: var(--color-light);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--color-primary-brand);
+ 
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-studio-header{
+    color: var(--color-dark);
+}
+
+.logo-studio-fooster{
+    color:var(--color-light); 
+}
+
+.list{
+    list-style-type: none;
+}
+
+.adress-list{
+    font-style: normal;
+}
+
+
+
+.contacts-telephone-mail{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
+.contacts-telephone-mail:hover,
+.contacts-telephone-mail:focus{
+    color: var(--color-hover-tel-and-mail);
+}
+
+.fooster-parameters{
+    background-color: var(--color-dark);
+}
+
+
+.section-hero{
+    background-color: var(--color-dark);
+}
+
+.buttons{
+    color: var(--color-buttons-text);
+    background-color: var(--color-buttons-background);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.buttons:hover,
+.buttons:focus {
+    cursor: pointer;
+    background-color: var(--color-active-buttons-background);
+}
+
+/*main in Index.html*/
+.li-what-we-use{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+
+
+}
+
+.section-team{
+    background-color: var(--color-light);
+}
+
+.li-section-team{
+    background-color: var(--color-white-background);
+}
+
+
+
+/*main in portfolio.html*/
+.filters-buttons {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-filter-button-text);
+    background-color: var(--color-filter-button-background);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filters-buttons:hover,
+.filters-buttons:focus {
+    cursor: pointer;
+    color: var(--color-buttons-text);
+    background-color: var(--color-active-buttons-background);
+}
+
+
+
