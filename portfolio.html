@@ -11,41 +11,55 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <!--LOGO-->
-        <a class="logo link" href="./index.html"
-          >WEB<span class="logo-studio-header">Studio</span></a
-        >
-
-        <!--navigation menu-->
-
-        <ul class="list">
-          <li><a class="list-font link" href="./index.html">Studio</a></li>
-          <li>
-            <a class="list-font link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="list-font link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-
-      <!--Contact-->
-      <address class="adress-list">
-        <ul class="list">
-          <li>
-            <a class="link-font link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+       <header class="header">
+      <div class="container section header-div">
+        <nav class="menu-list">
+          <!--LOGO-->
+          <div class="logo-div">
+            <a class="logo link" href="./index.html"
+              >WEB<span class="logo-studio-header">Studio</span></a
             >
-          </li>
-          <li>
-            <a class="link-font link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+          </div>
+
+          <!--navigation menu-->
+          <div class="menu-div">
+            <ul class="list menu-list">
+              <li><a class="list-font link" href="./index.html">Studio</a></li>
+              <li>
+                <a class="list-font link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="list-font link" href="">Contacts</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--Contact-->
+        <address class="adress-list">
+          <div class="adress-div">
+          <ul class="list contact-list">
+            <li>
+              <a class="link-font link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link-font link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          </div>
+        </address>
+      </div>
     </header>
     <main>
       <section class="portfolio-filters">
