@@ -61,7 +61,7 @@ ol {
     width: 1px;
 }
 .portfolio-card-div{
-/*padding: 0 120px;*/
+padding: 0 120px;*/
         
 }
 .card-wrap-div{
@@ -69,7 +69,12 @@ ol {
     gap: 24px;
     flex-wrap: wrap;
 }
-
+.card-wrap-item{
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    margin: 0;
+    padding: 0;  
+}
 
 
 
