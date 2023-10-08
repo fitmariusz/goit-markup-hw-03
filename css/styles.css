@@ -60,11 +60,14 @@ ol {
     white-space: nowrap;
     width: 1px;
 }
-.wrap_div{
-    max-width: 1000;
+.portfolio-card-div{
+/*padding: 0 120px;*/
+        
+}
+.card-wrap-div{
     display: flex;
-flex-wrap: wrap;
-    
+    gap: 24px;
+    flex-wrap: wrap;
 }
 
 
@@ -328,6 +331,9 @@ flex-wrap: wrap;
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
+    padding: 12px 24px;
+
+
 }
 
 .filters-buttons:hover,
@@ -335,6 +341,21 @@ flex-wrap: wrap;
     cursor: pointer;
     color: var(--color-buttons-text);
     background-color: var(--color-active-buttons-background);
+}
+.section-portfolio-div{
+
+}
+
+
+.filters-ul-div {
+    margin-top: 96px;
+    margin-bottom:72px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.filters-item{
+margin: 0 auto;
 }
 
 
