@@ -80,11 +80,15 @@ ol {
 }
 .button-position{
     display: block;
+    min-width: 169px;
+    min-height: 56px;
+    border: none;
     padding: 16px 32px;
     gap: 10px;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    margin: 48px auto;
+    margin: 48px auto 0 auto;
+    cursor: pointer;
 
 
     
@@ -148,6 +152,8 @@ ol {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: auto;
     
 
 }
@@ -252,6 +258,7 @@ ol {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
+
 }
 
 .list-section2-flex{
@@ -334,6 +341,7 @@ ol {
 
 .section-hero {
      background-color: var(--color-dark);
+     padding: 188px 0;
  
 }
 
