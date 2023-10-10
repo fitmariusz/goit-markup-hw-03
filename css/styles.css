@@ -156,6 +156,10 @@ ol {
     letter-spacing: 0.02em;
     color: var(--color-dark);
 }
+.fonts_name_section3{
+    padding-top: 32px;
+    text-align: center;
+}
 
 .fooster-parameters {
     background-color: var(--color-dark);
@@ -225,13 +229,21 @@ ol {
     display: flex;
     gap:24px;
     justify-content: center; 
+    padding-bottom: 120px;
 }
 
 .list-section3-flex{
     display: flex;
     margin: 0;
-        gap: 24px;
-        justify-content: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.list-section3-item-flex{
+    display: block;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--color-white-background);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -277,9 +289,14 @@ ol {
 }
 
 .p-font-fooster{
+    padding-top: 17px;
     color: var(--color-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.p-in-sectio3{
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 .section-hero {
