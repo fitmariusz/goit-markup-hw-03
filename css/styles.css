@@ -169,6 +169,7 @@ ol {
     letter-spacing: 0.02em;
     color: var(--color-dark);
 }
+.fonts-in-title-card,
 .fonts_name_section3{
     padding-top: 32px;
     text-align: center;
@@ -219,6 +220,10 @@ ol {
 .list {
     list-style-type: none;
 }
+.list-card{
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
 .list-font {
     font-weight: 500;
     font-size: 16px;
@@ -230,6 +235,14 @@ ol {
 .list-font:focus,
 .list-font:hover {
     color: var(--color-ressed-state)
+}
+
+.list-portfolio-flex{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .list-section1-flex{
@@ -307,7 +320,8 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.p-in-sectio3{
+.p-in-sectio3,
+.p-in-card{
     padding-bottom: 32px;
     text-align: center;
 }
