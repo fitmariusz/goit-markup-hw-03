@@ -105,8 +105,8 @@ ol {
 
 .container {
     width: 1158px;
-    /*margin: 0;
-    padding: 0;*/
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .filters-buttons {
@@ -177,15 +177,18 @@ ol {
 
 .fooster-parameters {
     background-color: var(--color-dark);
+    padding: 100px o;
+}
+.header{
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .header-div{
-    display: inline-flex;
+    display: flex;
     height: 72px;
     padding: 0px;
     align-items: center;
     justify-content: space-between;
     gap: 332px;
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
@@ -280,7 +283,10 @@ ol {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
+    display: inline-block;
     color: var(--color-primary-brand);
+    margin-right: 76px;
+
 
 }
 
@@ -303,7 +309,8 @@ ol {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    gap: 76px;
+    padding: 24px 0;
+    /*gap: 76px;*/
 }
 
 
@@ -315,7 +322,6 @@ ol {
 }
 
 .p-font-fooster{
-    padding-top: 17px;
     color: var(--color-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
