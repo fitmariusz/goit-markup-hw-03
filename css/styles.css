@@ -119,6 +119,11 @@ ol {
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
+    padding: 12px 24px;
+
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+   
 }
 
 .filters-buttons:hover,
@@ -126,6 +131,14 @@ ol {
     cursor: pointer;
     color: var(--color-buttons-text);
     background-color: var(--color-active-buttons-background);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.filters-flex{
+    display:flex;
+    gap:24px;
+    justify-content: center;
+    padding-bottom: 72px;
 }
 
 .fontshone {
