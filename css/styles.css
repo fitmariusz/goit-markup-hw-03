@@ -165,7 +165,7 @@ ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--color-dark);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .fontshthre {
@@ -208,8 +208,10 @@ ol {
     letter-spacing: 0.02em;
     color: var(--color-text);
     width: calc((100%-72px)/4);
+}
 
-
+.li-section-two-flex{
+    width: calc((100%-48px)/3);
 }
 
 .link {
@@ -264,7 +266,7 @@ ol {
 
 }
 
-.list-section2-flex{
+.list-section-two-flex{
     display: flex;
     gap:24px;
     justify-content: center; 
@@ -347,15 +349,16 @@ ol {
      padding: 188px 0;
  
 }
-.section-what-we-use{
-    padding: 120px 0;
-}
-
-
 .section-team {
     background-color: var(--color-light);
 }
 
+.section-what-are-we-doing{
+    padding-bottom: 120px;
+}
+.section-what-we-use{
+    padding: 120px 0;
+}
 
 .visually-hidden:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
