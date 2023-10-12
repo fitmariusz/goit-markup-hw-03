@@ -126,7 +126,7 @@ ol {
     padding: 12px 24px;
 
     border-radius: 4px;
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid var(--color-accent, #E7E9FC);
    
 }
 
@@ -188,16 +188,15 @@ ol {
     padding: 100px 0;
 }
 .header{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-bottom: 1px solid var(--color-accent, #E7E9FC);
 }
 .header-div{
     display: flex;
     height: 72px;
-    padding: 0px;
     align-items: center;
     justify-content: space-between;
     gap: 332px;
-    background: var(--WHITE, #FFF);
+    background: var(--color-white-background, #FFF);
 }
 
 .li-section-team {
@@ -239,7 +238,7 @@ ol {
     list-style-type: none;
 }
 .list-card{
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid var(--color-accent, #E7E9FC);
 }
 
 .list-font {
@@ -248,6 +247,8 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-dark);
+    padding: 24px 0;
+
 }
 
 .list-font:focus,
