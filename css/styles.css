@@ -136,13 +136,14 @@ ol {
     color: var(--color-buttons-text);
     background-color: var(--color-active-buttons-background);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid transparent;
 }
 
 .filters-flex{
     display:flex;
     gap:24px;
     justify-content: center;
-    padding-bottom: 72px;
+     margin-bottom: 72px;
 }
 
 .fontshone {
@@ -238,7 +239,9 @@ ol {
     list-style-type: none;
 }
 .list-card{
+    width: calc((100% - 48px) / 3);
     border: 1px solid var(--color-accent, #E7E9FC);
+
 }
 
 .list-font {
@@ -261,8 +264,22 @@ ol {
     gap: 24px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 48px;
+    row-gap: 48px;
+    
 
 }
+
+.list-link-div-portfolio-flex{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+   
+
+}
+
+
 
 .list-section-one-flex{
     display: flex;
@@ -352,12 +369,34 @@ ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+/*
 .p-in-card{
     padding-bottom: 32px;
     text-align: center;
+}*/
+
+.portfolio-filters{
+    padding-top: 96px;
+    padding-bottom: 120px;
+    
+}
+.portfolio-list-link-flex-grid{
+    
+    
 }
 
+.portfolio-list-link-div-flex{
+    padding: 32px 16px;
+    
+
+}
+
+.portfolio-list-link-div-h-flex-gird{
+    text-align: center;
+}
+.portfolio-list-link-div-p-flex-gird{
+    text-align: center;
+}
 /*
 .p-in-sectio3{
     color: var(--color-text);
