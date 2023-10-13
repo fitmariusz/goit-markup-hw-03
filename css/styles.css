@@ -177,8 +177,7 @@ ol {
     margin-bottom: 8px;
     text-align: center;
 }
-.fonts-in-title-card,
-.fonts_name_section3{
+.fonts-in-title-card{
    /* padding-top: 32px;*/
     text-align: center;
 }
@@ -198,10 +197,11 @@ ol {
     gap: 332px;
     background: var(--color-white-background, #FFF);
 }
-
+/*
 .li-section-team {
     background-color: var(--color-white-background);
-}
+}*/
+
 .li-what-we-use {
     font-size: 16px;
     line-height: 1.5;
@@ -278,25 +278,27 @@ ol {
     justify-content: center; 
     padding-bottom: 120px;
 }
-
+/*
 .list-section-thre-flex{
     display: flex;
     width: calc((100% - 72px) / 4);
     gap: 24px;
     justify-content: center;
     
-}
-.list-section-threflex-div{
+}*/
+/*
+.list-section-thre-flex-div{
     padding: 32px 0;
 
-}
+}*/
+
+/*
 .list-section-thre-item-flex{
     display: block;
     border-radius: 0px 0px 4px 4px;
     background: var(--color-white-background);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    width: calc((100% - 72px) / 4);
-}
+   }*/
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -355,13 +357,16 @@ ol {
     padding-bottom: 32px;
     text-align: center;
 }
+
+/*
 .p-in-sectio3{
     color: var(--color-text);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /*padding-bottom: 32px;*/
     text-align: center;
 }
+*/
+
 .section-hero {
      background-color: var(--color-dark);
      padding: 188px 0;
@@ -378,6 +383,49 @@ ol {
 .section-what-we-use{
     padding: 120px 0;
 }
+.flex-grid {
+    --col-count: 3;
+    --gap-cont: calc(var(--col-count)-1);
+    --gap: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+.team-section{
+    padding-top: 0;
+}
+
+.team-gallery-flex-grid{
+    --col-cont: 4;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+
+}
+.flex-grid > li {
+    flex-basis: calc((100% - var(--gap-cont) * var(--gap))/var(--col-count));
+    border-radius: 0px 0px 4px 4px;
+}
+.team-li-flex-grid{
+    flex-basis: calc((100% - var(--gap-cont) * var(--gap))/var(--col-count));
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.team-div-li-felx-grid {
+    padding: 32px 0px;
+
+}
+.team-h3-div-li-flex-grid {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-p-div-li-felx-grid {
+    text-align: center;
+}
+
 
 .visually-hidden:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
