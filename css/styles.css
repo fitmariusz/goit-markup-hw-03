@@ -50,7 +50,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+    gap: 24px;
 }
 .adress-list {
     font-style: normal;
@@ -145,6 +145,16 @@ ol {
     justify-content: center;
      margin-bottom: 72px;
 }
+.flex-grid {
+    --col-count: 3;
+    --gap-cont: calc(var(--col-count)-1);
+    --gap: 24px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+}
+
 
 .fontshone {
     color: var(--color-buttons-text);
@@ -380,14 +390,31 @@ ol {
     padding-bottom: 120px;
     
 }
+.portfolio-gallery-grid{
+    --col-cont: 3;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    row-gap: 48px;
+    list-style-type: none;
+
+}
+
+
+.portfolio-li-flex-grid{
+   width: calc((100% - 48px) / 3);
+}
+
 .portfolio-list-link-flex-grid{
-    
+    text-decoration: none;
     
 }
 
-.portfolio-list-link-div-flex{
+.portfolio-list-link-div-flex-grid{
     padding: 32px 16px;
-    
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 
 }
 
@@ -422,15 +449,7 @@ ol {
 .section-what-we-use{
     padding: 120px 0;
 }
-.flex-grid {
-    --col-count: 3;
-    --gap-cont: calc(var(--col-count)-1);
-    --gap: 24px;
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap);
-}
 .team-section{
     padding: 120px 0;
 }
